@@ -1,0 +1,12 @@
+{
+  "id": 56,
+  "network": "Custom",
+  "deployments": {
+    "0x3ea77612231c14d46828dda4ae6f6c2f1e8de4cd": {
+      "date": "2025-05-24T13:55:14.816Z",
+      "contractName": "ZarfixCrowdsale",
+      "fork": "london",
+      "implementationAddress": "0x359cA54F77dDc69C9947D89DF8dC623Dabdee57b"
+    }
+  }
+}

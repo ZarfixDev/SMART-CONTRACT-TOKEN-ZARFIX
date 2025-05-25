@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.29+commit.ab55807c"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "MerkleProofInvalidMultiproof",
+				"type": "error"
+			}
+		],
+		"devdoc": {
+			"details": "These functions deal with verification of Merkle Tree proofs. The tree and the proofs can be generated using our https://github.com/OpenZeppelin/merkle-tree[JavaScript library]. You will find a quickstart guide in the readme. WARNING: You should avoid using leaf values that are 64 bytes long prior to hashing, or use a hash function other than keccak256 for hashing leaves. This is because the concatenation of a sorted pair of internal nodes in the Merkle tree could be reinterpreted as a leaf value. OpenZeppelin's JavaScript library generates Merkle trees that are safe against this attack out of the box. IMPORTANT: Consider memory side-effects when using custom hashing functions that access memory in an unsafe way. NOTE: This library supports proof verification for merkle trees built using custom _commutative_ hashing functions (i.e. `H(a, b) == H(b, a)`). Proving leaf inclusion in trees built using non-commutative hashing functions requires additional logic that is not supported by this library.",
+			"errors": {
+				"MerkleProofInvalidMultiproof()": [
+					{
+						"details": "The multiproof provided is not valid."
+					}
+				]
+			},
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ZARFIX CROWDSALE_flattened.sol": "MerkleProof"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ZARFIX CROWDSALE_flattened.sol": {
+			"keccak256": "0xb6f692ccc4a4d662f11b60fca5bc837b331c052366f2a43392b557a696b2edad",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://53c56745c81c6457569216ee393219cc8a3e115cf83f131883fb10a308e3a45b",
+				"dweb:/ipfs/QmQpsT8i33tcgi9WFz2AhSf3UGif7EYkisZbPHRetX76tp"
+			]
+		}
+	},
+	"version": 1
+}

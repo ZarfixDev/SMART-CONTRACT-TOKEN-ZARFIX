@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.29+commit.ab55807c"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "implementation",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "This is the interface that {BeaconProxy} expects of its beacon.",
+			"kind": "dev",
+			"methods": {
+				"implementation()": {
+					"details": "Must return an address that can be used as a delegate call target. {UpgradeableBeacon} will check that this address is a contract."
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ZARFIX CROWDSALE_flattened.sol": "IBeacon"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ZARFIX CROWDSALE_flattened.sol": {
+			"keccak256": "0xb6f692ccc4a4d662f11b60fca5bc837b331c052366f2a43392b557a696b2edad",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://53c56745c81c6457569216ee393219cc8a3e115cf83f131883fb10a308e3a45b",
+				"dweb:/ipfs/QmQpsT8i33tcgi9WFz2AhSf3UGif7EYkisZbPHRetX76tp"
+			]
+		}
+	},
+	"version": 1
+}
